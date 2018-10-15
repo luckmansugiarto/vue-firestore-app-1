@@ -10,6 +10,6 @@ const config = {
     storageBucket: 'app-2-352ff.appspot.com',
     messagingSenderId: '21039500689'
 }
-const firebase.initializeApp(config)
+const firebaseapp = firebase.initializeApp(config)
 
-export default firebaseapp.firestore
+export default firebaseapp.firestore()
